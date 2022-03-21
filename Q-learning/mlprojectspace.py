@@ -4,6 +4,9 @@ import random
 import time
 # from IPython.display import clear_output
 
+# code tutorial found at https://www.youtube.com/watch?v=QK_PP_2KgGE
+# this code is significantly adjusted from that referenced
+
 # define reward adjusting method
 def adjust_reward(reward, done):
 	if reward == 0:
